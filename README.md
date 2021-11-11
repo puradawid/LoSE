@@ -2,6 +2,8 @@
 
 This repository collects all laws that are applicable to software engineering.
 
+The laws below has been elicited from software engineer's experience and literature available. They are never finished, never accurate, but good enough to be used by people that develop, test and maintain software around the world.
+
 ## What Is 'Software Engineering'?
 
 Using the definition introduced by Ian Sommervile, software engienering is
@@ -14,14 +16,18 @@ Based on this definition, software engieering is everything related to the creat
 
 ### Complication
 
-A matter (a thing or a concept) that has many parts and therefore it's hard to understand it.
+A matter (a thing or a concept) that has many parts and therefore it's hard to understand it. It is realtively easy to reproduce the same results knowing only on the inputs.
 
-Example: a watch, a program, a car
+Examples: a watch, a program, a car
 
 ### Complexity
 
 A matter is complex when:
-* the same initial state can give different result - for example, 
+* the same initial state (inputs) can give different result
+* elements (agents) of the system are less important than interactions between them (i.e. you can't just sum up agents' abilities)
+* to understand the matter and forecast its behaviour, one has to perform experiments (it cannot be understood by just dissasembling)
+
+Examples: single cell, weather, human interactions, politics
 
 ### Problem
 
@@ -47,9 +53,8 @@ Program, a set of instructions handled by single processor, can be truly complic
 
 ### Data (Interations) Can Be Complex
 
-Data is a representation of the reality, which is comlex
+Data is a representation of the reality, which is (usually complex).
 
-Example: a deep learning program is only complicated, but it can find hidden relations in complex data.
-
+Example: a deep learning program is only complicated, but it can find hidden (unexpected) relations in complex data.
 
 [Sommerville]: https://books.google.pl/books?vid=ISBN9780137053469&redir_esc=y
