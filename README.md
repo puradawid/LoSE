@@ -8,7 +8,7 @@ The laws below has been elicited from software engineer's experience and literat
 
 Using the definition introduced by Ian Sommervile, software engienering is
 
-> (...) an engineering discipline that is concerned with all aspects of software production from the early stages of system specification through to maintaining the system after it has gone into use. [[Sommerville]]
+> (...) an engineering discipline that is concerned with all aspects of software production from the early stages of system specification through to maintaining the system after it has gone into use. [^Sommerville]
 
 Based on this definition, software engieering is everything related to the creation or maitenance of software systems of any kind. It assumes there is a certain subset of activities that are common for all software.
 
@@ -64,4 +64,4 @@ Data is a representation of the reality, which is (usually complex).
 
 Example: a deep learning program is only complicated, but it can find hidden (unexpected) relations in complex data.
 
-[Sommerville]: https://books.google.pl/books?vid=ISBN9780137053469&redir_esc=y
+[^Sommerville]: Ian Sommerville, *Software Engineering* 10th edition, Pearson https://books.google.pl/books?vid=ISBN9780137053469&redir_esc=y
