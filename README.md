@@ -47,12 +47,18 @@ A set of programs, services, and hardware that solves particular set of problems
 
 The program that has no output (it does not save/print/send any data) has no value and does not exist. There may be a program that takes no initial state ('hello world' is a good example, or a procedure that populates the database with some random data).
 
-Consequences:
+#### Consequences
+
 * testing software is always based on output verification against the inputs
 * finishing the program is also an output. Consider the program that finishes after some time - but returns nothing. Is this a single output? Can it fail?
 * any set of instructions that produces no output is not a program and can be removed
+* there is an infinite number of programs that have no outputs
 
 The law gives you a perspective of testing and designing certain functionallity, i.e. from 10k feet perspective an engineer should focus about predicting outputs the most. Additionally, the output is very detailed, and usually much more than one response. Consider a program that returns random numbers. What is the output? It can be just the number, but in certain situations the time it takes to randomize it is also an output, or maybe there is an interim data processing left somewhere in hard drive? From engineer's perspective, all of those has to be reviewed and classified as important, ignored or irrelevant.
+
+#### Counterexample
+
+Imagine a program that has no output. This program cannot be verified in any case, because it cannot end. Therefore, such program cannot be created or may even exist. In fact, it is easy to assume, there is an infinite number of programs without inputs running at this moment - and still, we cannot verify their existence.
 
 ### A Single Program Is Complicated But Not Complex
 
