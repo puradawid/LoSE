@@ -58,6 +58,15 @@ The law gives you a perspective of testing and designing certain functionallity,
 
 Program, a set of instructions handled by single processor, can be truly complicated, although never complex - for every program, we can define finite set of input events/data that will define the all possible output. In the other words, it's possible to recreate a program state, no matter how complicated, run it and suspect the same results.
 
+Thus, all programs are verifiable by set of tests in form of inputs against outputs. For instance, a program that increments input could be verified with:
+
+* input: 10, output: 11
+* input: 11, output 12
+* input: 100, output 101
+* input: MAX_INT, output: ERROR
+
+In this case, the input starts with -MAX_INT until MAX_INT. An engineer can verify how many of those tests should be performed to verify the program's correctness.
+
 ### Data (Interations) Can Be Complex
 
 Data is a representation of the reality, which is (usually complex).
