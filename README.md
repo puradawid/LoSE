@@ -12,6 +12,17 @@ Based on this definition, software engieering is everything related to the creat
 
 ## Definitions
 
+### Complication
+
+A matter (a thing or a concept) that has many parts and therefore it's hard to understand it.
+
+Example: a watch, a program, a car
+
+### Complexity
+
+A matter is complex when:
+* the same initial state can give different result - for example, 
+
 ### Problem
 
 For this document, a problem is a complex matter to solve by a software system. A problem is usually hard to define or describe. Examples: aircraft control, calculator, operating system.
@@ -24,6 +35,21 @@ A set of instructions ran by a computer. A program is usually complicated (can b
 
 A set of programs, services, and hardware that solves particular set of problems. Containing complicated programs, the system is usually complex (as their interactions).
 
+## Laws
+
+### Every Program Has Output
+
+The program that has no output (it does not save/print/send any data) has no value and does not exist. There may be a program that takes no initial state ('hello world' is a good example, or a procedure that populates the database with some random data).
+
+### A Single Program Is Complicated But Not Complex
+
+Program, a set of instructions handled by single processor, can be truly complicated, although never complex - for every program, we can define finite set of input events/data that will define the all possible output. In the other words, it's possible to recreate a program state, no matter how complicated, run it and suspect the same results.
+
+### Data (Interations) Can Be Complex
+
+Data is a representation of the reality, which is comlex
+
+Example: a deep learning program is only complicated, but it can find hidden relations in complex data.
 
 
 [Sommerville]: https://books.google.pl/books?vid=ISBN9780137053469&redir_esc=y
