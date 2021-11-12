@@ -73,6 +73,8 @@ Thus, all programs are verifiable by set of tests in form of inputs against outp
 
 In this case, the input starts with -MAX_INT until MAX_INT. An engineer can verify how many of those tests should be performed to verify the program's correctness.
 
+Due to high level of program's complication, sometimes, engineers decide to treat the program as a complex matter by ignoring certain output or making it "irrelevant", when in fact it is the opposite. Then, they run into a situation where they perform black-box experiments against the complicated program. This is a sub-optimal situation, and engineers should be aware of the certain field they can improve.
+
 ### Data (Interations) Can Be Complex
 
 Data is a representation of the reality, which is (usually complex).
