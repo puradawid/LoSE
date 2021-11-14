@@ -1,6 +1,6 @@
 # LoSE - Laws of Software Engieering
 
-This repository collects all laws that are applicable to software engineering.
+This repository collects laws applicable to software engineering.
 
 The laws below has been elicited from software engineer's experience and literature available. They are never finished, never accurate, but good enough to be used by people that develop, test and maintain software around the world.
 
@@ -14,15 +14,25 @@ Based on this definition, software engieering is everything related to the creat
 
 ## Definitions
 
-### Complication
+### Complicated (thing)
 
-A matter (a thing or a concept) that has many parts and therefore it's hard to understand it. It is realtively easy to reproduce the same results knowing only on the inputs.
+A matter is complicated when it is:
+
+> involving a lot of different parts, in a way that is difficult to understand[^complicated_dict]
+
+If the matter is complicated but not complex, the same initial state gives the same results every time.
 
 Examples: a watch, a program, a car
 
-### Complexity
+### Complex (thing)
 
-A matter is complex when:
+A matter is complex when it is:
+
+> having many parts related to each other in ways that may be difficult to understand[^complex_dict]
+
+The difference between complicated and complex is suble from these definitions. In both cases, things are hard to understand, but in a complex matter, relations between elements (despite how simple they are to understand) are key to the system - in the other words, different relations between elements makes the thing different.
+
+There are several consequences of having complex matter comparing to the complicated one:
 * the same initial state (inputs) can give different result
 * elements (agents) of the system are less important than interactions between them (i.e. you can't just sum up agents' abilities)
 * to understand the matter and forecast its behaviour, one has to perform experiments (it cannot be understood by just dissasembling)
@@ -82,3 +92,5 @@ Data is a representation of the reality, which is (usually complex).
 Example: a deep learning program is only complicated, but it can find hidden (unexpected) relations in complex data.
 
 [^Sommerville]: Ian Sommerville, *Software Engineering* 10th edition, Pearson https://books.google.pl/books?vid=ISBN9780137053469&redir_esc=y
+[^complicated_dict]: https://dictionary.cambridge.org/dictionary/english/complicated
+[^complex_dict]: https://dictionary.cambridge.org/dictionary/english/complex
