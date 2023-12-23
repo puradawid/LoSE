@@ -1,5 +1,7 @@
 # LoSE - Laws of Software Engineering
 
+> The only thing we can leave the next generations us is our creative work. It comes from our hearts and minds and states what we believe and what we think about matters important to us. Without creating this outside our brains we are not different than a super-intelligent octopus, solicitedly remaining down the sea. 
+
 This repository collects laws applicable to software engineering.
 
 The laws below have been elicited from software engineers' experience and the literature available. They are never finished, never accurate, but good enough to be used by people that develop, test and maintain software around the world.
