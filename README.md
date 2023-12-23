@@ -1,6 +1,6 @@
 # LoSE - Laws of Software Engineering
 
-> The only thing we can leave the next generations us is our creative work. It comes from our hearts and minds and states what we believe and what we think about matters important to us. Without creating this outside our brains we are not different than a super-intelligent octopus, solicitedly remaining down the sea. 
+> The only thing we can leave the next generations us is our creative work. It comes from our hearts and minds and states what we believe and what we think about matters important to us. Without creating this outside our brains we are not different than a super-intelligent octopus, solitarely remaining down the sea. 
 
 This repository collects laws applicable to software engineering.
 
